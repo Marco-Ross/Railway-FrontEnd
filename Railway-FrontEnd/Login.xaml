@@ -1,0 +1,18 @@
+﻿<Window x:Class="Railway_FrontEnd.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Railway_FrontEnd"
+        mc:Ignorable="d"
+        Title="Login" Height="300" Width="300">
+	<Grid>
+		<TextBox Name="LoginUserName" HorizontalAlignment="Left" Height="23" Margin="87,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox Name="LoginUserPassword" HorizontalAlignment="Left" Height="23" Margin="87,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Label Content="LOGIN" HorizontalAlignment="Left" Margin="109,34,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+		<Label Content="Username:" HorizontalAlignment="Left" Margin="83,83,0,0" VerticalAlignment="Top"/>
+		<Label Content="Password:" HorizontalAlignment="Left" Margin="83,149,0,0" VerticalAlignment="Top"/>
+		<Button Name="LoginBtn" Content="Login" HorizontalAlignment="Left" Margin="193,239,0,0" VerticalAlignment="Top" Width="89" Click="LoginBtn_Click"/>
+
+	</Grid>
+</Window>
